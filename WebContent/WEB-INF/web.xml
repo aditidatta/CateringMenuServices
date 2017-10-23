@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>Error</servlet-name>
+        <servlet-class>servlet.Error</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Error</servlet-name>
+        <url-pattern>/Error</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CaterLogin</servlet-name>
+        <servlet-class>servlet.CaterLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CaterLogin</servlet-name>
+        <url-pattern>/CaterLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CaterLogout</servlet-name>
+        <servlet-class>servlet.CaterLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CaterLogout</servlet-name>
+        <url-pattern>/CaterLogout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Catering</servlet-name>
+        <servlet-class>servlet.Catering</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Catering</servlet-name>
+        <url-pattern>/Catering</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewMenu</servlet-name>
+        <servlet-class>servlet.ViewMenu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewMenu</servlet-name>
+        <url-pattern>/ViewMenu</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddMenu</servlet-name>
+        <servlet-class>servlet.AddMenu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddMenu</servlet-name>
+        <url-pattern>/AddMenu</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddDish</servlet-name>
+        <servlet-class>servlet.AddDish</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddDish</servlet-name>
+        <url-pattern>/AddDish</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteMenu</servlet-name>
+        <servlet-class>servlet.DeleteMenu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteMenu</servlet-name>
+        <url-pattern>/DeleteMenu</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteDish</servlet-name>
+        <servlet-class>servlet.DeleteDish</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteDish</servlet-name>
+        <url-pattern>/DeleteDish</url-pattern>
+    </servlet-mapping>
+</web-app>
